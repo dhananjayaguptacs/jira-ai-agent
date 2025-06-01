@@ -2,7 +2,7 @@
 # Jira AI Bot
 
 ## Overview
-The Jira AI Bot is a Python-based application that automates ticket creation and analysis in Jira. It uses the `gemma3:1b` language model (via `langchain-ollama`) to perform ticket triage, root cause analysis, and similarity checks for Jira tickets. The bot runs in a Docker container, polls for new tickets, and adds analysis comments, ensuring it does not compare a ticket with itself during similarity checks. It supports creating tickets of various types (e.g., Bug, Support, Task) and integrates with Jira’s API for seamless ticket management.
+The Jira AI Bot is a Python-based application that automates ticket creation and analysis in Jira. It uses the `gemma3:1b` language model (via `langchain-ollama`) to perform ticket triage, root cause analysis, and similarity checks for Jira tickets. The bot runs in a Docker container, polls for new tickets, and adds analysis comments. It supports creating tickets of various types (e.g., Bug, Support, Task) and integrates with Jira’s API for seamless ticket management.
 
 ## Features
 - **Ticket Creation**: Create Jira tickets with specified types (e.g., Bug, Support, Task).
